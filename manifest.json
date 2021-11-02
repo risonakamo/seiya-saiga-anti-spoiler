@@ -1,0 +1,11 @@
+{
+    "name":"seiya-saiga anti-spoiler",
+    "description":"attempt to anti-spoil seiya saiga",
+    "version":"1.0.0",
+    "manifest_version":3,
+
+    "content_scripts":[{
+        "matches":["https://seiya-saiga.com/game/*"],
+        "js":["ss-anti-spoil.js"]
+    }]
+}

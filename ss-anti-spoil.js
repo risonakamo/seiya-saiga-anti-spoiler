@@ -8,6 +8,8 @@
         return html.replace(removeReg,"");
     }
 
+    console.log("anti spoiling");
+
     var allTds=document.querySelectorAll("td");
 
     for (var i=0;i<allTds.length;i++)
